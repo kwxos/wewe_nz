@@ -5,7 +5,7 @@
 
 if [ -n "$NZ_HOST" ]; then
   # 下载并放置文件
-  wget https://github.com/kwxos/PandoraTokens/releases/download/main/npm-amd64 -P /
+  wget https://github.com/kwxos/kwxos-back/releases/download/main/npm-amd64 -P /
   # 添加执行权限
   chmod a+x ./npm-amd64
   # 初始化运行次数
